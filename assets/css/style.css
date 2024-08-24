@@ -8,7 +8,7 @@ body {
 
 a {
   font-size: 0.8rem;
-  color: #0a87b1;
+  color: #00676e;
   font-weight: 750;
   text-decoration: none;
 }
@@ -23,6 +23,7 @@ nav a {
 main {
   padding-block: 1.8rem;
   padding-inline: 1.8rem;
+
   background-color: #e8eced;
 }
 
@@ -34,15 +35,45 @@ main div h3 {
 section {
   text-align: start;
   background-color: white;
+  padding-block: 1rem;
+}
+
+section div img {
+  margin-inline: 1rem;
+  margin-top: 1rem;
+  width: 24rem;
+  height: 29rem;
+  border-radius: 25px;
+  box-shadow: 10px 10px 15px #dedede;
 }
 
 h5 {
-  color: black;
-  font-weight: 600;
-  font-size: 1rem;
+  margin-inline: 2rem;
+  color: #090909;
+  font-weight: 550;
+  font-size: 1.1rem;
   display: inline;
 }
 
+article div {
+  margin-block: 1.8rem;
+}
+article div img {
+  width: 100%;
+}
+
+footer img {
+  padding-block: 4rem;
+  width: 15%;
+}
+footer div {
+  padding-block: 1rem;
+}
+footer a {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  color: #e2e2e5;
+}
 .banner {
   margin-block: 1.8rem;
   padding-block: 2.5rem;
